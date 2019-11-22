@@ -1,3 +1,3 @@
 #!/bin/sh
 
-npm run test:nowatch || exit 1
+yarn test:nowatch || exit 1

@@ -37,6 +37,7 @@ const Navbar = () => {
           </AppBar>
         </div>
       </Fragment>
+      
   );
 };
 
