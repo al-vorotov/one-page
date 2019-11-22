@@ -1,3 +1,3 @@
 #!/bin/sh
 
-yarn test:nowatch || exit 1
+yarn test || exit 1
