@@ -1,0 +1,9 @@
+.contentPage {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0;
+  grid-row-gap: 0;
+  position: relative;
+  margin-top: 70px;
+}
