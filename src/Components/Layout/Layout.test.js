@@ -1,9 +1,16 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { cleanup, render } from "@testing-library/react";
+
 import Layout from './index';
 
-it('renders without crashing', () => {
-  const div = document.createElement('div');
-  ReactDOM.render(<Layout />, div);
-  ReactDOM.unmountComponentAtNode(div);
+afterEach(() => {
+  cleanup();
+});
+describe('Layout', () => {
+  it('should render without Data💥', () => {
+    const wrapper = render(
+        <Layout/>
+    );
+    expect(wrapper).toBeTruthy();
+  });
 });

@@ -6,4 +6,7 @@
   grid-row-gap: 0;
   position: relative;
   margin-top: 70px;
+  @media screen and (max-width: 750px) {
+    display: unset;
+  }
 }

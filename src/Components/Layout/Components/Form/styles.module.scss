@@ -4,6 +4,9 @@
   flex-direction: column;
   align-items: flex-start;
   padding: 20px;
+  @media screen and (max-width: 1077px) {
+    width:200px!important;
+  }
 }
 
 .formLogo {
@@ -29,6 +32,9 @@
   top: 25%;
   left: 50%;
   transform: translate(-50%, -50%);
+  @media screen and (max-width: 1077px) {
+    display: none;
+  }
 }
 
 .accountButton {
@@ -57,4 +63,7 @@
   left: 50%;
   font-size: 14px;
   transform: translate(-50%, -50%);
+  @media screen and (max-width: 750px) {
+    display: none;
+  }
 }
